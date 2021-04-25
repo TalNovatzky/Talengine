@@ -1,0 +1,3 @@
+[submodule "Tal/vendor/spdlog"]
+	path = Tal/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
