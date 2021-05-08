@@ -10,3 +10,4 @@
 	#error Tal supports only Windows for now
 #endif // TAL_PLATFORM_WINDOWS
 
+#define BIT(x) (1 << x)

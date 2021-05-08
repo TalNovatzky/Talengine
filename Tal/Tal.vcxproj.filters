@@ -4,6 +4,9 @@
     <Filter Include="Tal">
       <UniqueIdentifier>{2625880B-922E-887C-1BAA-9E7C87B2937C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tal\Events">
+      <UniqueIdentifier>{4ACA8723-3682-C970-9F89-A2CC8B606461}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Tal.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Tal\EntryPoint.h">
       <Filter>Tal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tal\Events\ApplicationEvent.h">
+      <Filter>Tal\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tal\Events\Event.h">
+      <Filter>Tal\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tal\Events\KeyEvent.h">
+      <Filter>Tal\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tal\Events\MouseEvent.h">
+      <Filter>Tal\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Tal\Log.h">
       <Filter>Tal</Filter>
