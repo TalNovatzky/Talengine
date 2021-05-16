@@ -1,9 +1,6 @@
 #pragma once
-
+#include "talpch.h"
 #include "Tal/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace Tal 
 {

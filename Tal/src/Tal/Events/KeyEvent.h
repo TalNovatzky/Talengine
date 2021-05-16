@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Tal {
 
 	class TAL_API KeyEvent : public Event

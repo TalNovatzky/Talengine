@@ -1,3 +1,4 @@
+#include "talpch.h"
 #include "Application.h"
 #include "Events/ApplicationEvent.h"
 #include "Tal/Log.h"

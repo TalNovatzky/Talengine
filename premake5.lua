@@ -19,6 +19,9 @@ project "Tal"
 	targetdir ("bin/" ..outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" ..outputdir .. "/%{prj.name}")
 
+	pchheader "talpch.h"
+	pchsource "Tal/src/talpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
